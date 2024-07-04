@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtendo valor de entrada do textarea</title>
+</head>
+<body>
+    <h2>Perfil</h2>
+    <textarea name="post" id="postText" cols="20" rows="8" placeholder="Sobre você:"></textarea>
+    <br>
+    <button onclick="share()">Compartilhar</button>
+    <p id="post"></p>
+
+    
+    <h2>Avaliações do Cliente</h2>
+    <input type="text" id="nomeCliente" placeholder="Seu nome...">
+    <textarea name="cliente" id="experienciaText" rows="18" placeholder="Experiência com nossos serviços:"></textarea>
+    <button onclick="enviarAvaliacao()">Adicionar Avaliação</button>
+    <p id="acessarExperiencia"></p>
+
+    <script src="/JS/aula02.js"></script>
+</body>
+</html>
